@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+
+# Virtualenv
+venv/
+.venv/
+env/
+
+# Django
+db.sqlite3
+db.sqlite3-journal
+staticfiles/
+
+# Env
+.env
+
+# OS
+.DS_Store
+
+# Note: fuelroute/data/geocode_cache.json is intentionally COMMITTED so a
+# fresh clone can re-import the 8k stations instantly (no 2-hour geocode run).
